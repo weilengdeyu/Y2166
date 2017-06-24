@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>video</title>
+   
+    <style type="text/css">
+     div{
+            width: 100px;
+            height: 100px;
+            background: red;
+            /*���ö���*/
+            animation: aa 8s linear infinite;
+           
+        }
+
+        @keyframes aa {
+            0%{
+                width: 0;
+                background:pink;
+                transform: translate(0px,0);
+            }
+            25%{
+                width: 20px;
+                background:red;
+                transform: translate(200px,0);
+            }
+            50%{
+                width: 50px;
+                background:blue;
+                transform:translate(300px,0);
+            }
+            75%{
+                width: 70px;
+                background:green;
+                transform:translate(200px,0);
+            }
+            100%{
+               width: 100px;
+               background:purple;
+                transform:translate(100px,0);
+            }
+        }
+    </style>
+   
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
